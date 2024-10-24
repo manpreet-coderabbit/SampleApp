@@ -44,6 +44,12 @@ app.post('/api/products', (req, res) => {
   res.status(201).json(newProduct);
 });
 
+<meta charset="UTF-8" role="meta" />
+
+<marquee />
+
+<div><label /><input /></div>;
+
 // Serve the index.html file for the root route
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
